@@ -1,2 +1,2 @@
-# DAV-2018
-Página web de la asignatura Desarrollo de entornos interactivos multidispositivo
+# RAY-Template
+plantilla html para la asignatura RAY
