@@ -12,8 +12,6 @@ function createSocial() {
 					<ul class='nav nav-pills'> 
 						<li><a href=''><i class='fa fa-facebook'></i></a></li> 
 						<li><a href=''><i class='fa fa-twitter'></i></a></li> 
-						<li><a href=''><i class='fa fa-google-plus'></i></a></li> 
-						<li><a href=''><i class='fa fa-dribbble'></i></a></li> 
 						<li><a href=''><i class='fa fa-linkedin'></i></a></li> 
 					</ul> 
 				</div> 
@@ -67,35 +65,41 @@ function createNavbar(rootIndex) {
 
 					<li class="dropdown"><a href="${rootPathAux}pages/practicas.html">Prácticas <i class="fa fa-angle-down"></i></a>
 						<ul role="menu" class="sub-menu">
-							<li><a href="${rootPathAux}pages/ejercicios/ejercicio001.html">Ejercicios 1</a></li>
-							<li><a href="${rootPathAux}pages/ejercicios/ejercicio002.html">Ejercicios 2</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">El primer terreno</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Añadiendo interfaces de usuario</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">El circuito y el tiempo</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Animando nuestros modelos</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Menús de configuración</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Evaluación demo SpeedRun</a></li>
+							<hr>
+							<li><a href="${rootPathAux}pages/proximamente.html">Primera máquina de estados</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Minijuegos por zonas</a></li>
+							<hr>
+							<li><a href="${rootPathAux}pages/proximamente.html">Proyecto grupal</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Evaluación Demo final</a></li>
 						</ul>
 					</li>
 
-					<!--<li class="dropdown"><a href="${rootPathAux}pages/portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
+					<li class="dropdown"><a href="${rootPathAux}pages/recursos.html">Unity(C#)<i class="fa fa-angle-down"></i></a>
 						<ul role="menu" class="sub-menu">
-							<li><a href="${rootPathAux}pages/portfolio/galeria.html">Galeria</a></li>
-							<li><a href="${rootPathAux}pages/portfolio/cv.html ">Curriculum Vitae</a></li>
-						</ul>
-					</li>-->
 
-					<li class="dropdown"><a href="${rootPathAux}pages/recursos.html">Recursos <i class="fa fa-angle-down"></i></a>
-						<ul role="menu" class="sub-menu">
-							<li><a href="${rootPathAux}pages/recursos/cheetsheet.html ">Plantilla Triangle</a></li>
-							
-							<!--<li><a href="${rootPathAux}pages/recursos/rec-html.html ">HMTL 5</a></li>-->
-							<li><a href="${rootPathAux}pages/proximamente.html">HMTL 5</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Interfaz de usuario</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">La primera escena</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Terreno</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Controlador tercera persona</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Interfaces de usuario 2D</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Primitivas y colisionadores</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Animaciones y sus controladores</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Fuentes de sonido y mezcladores</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Configuración de controles</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Emisores de partículas</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Compilación</a></li>
+							<hr>
+							<li><a href="${rootPathAux}pages/proximamente.html">Introducción a C#</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Programación orientada a objetos</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Flujo ejecución de Unity</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">La API de Unity</a></li>
 
-							<!--<li><a href="${rootPathAux}pages/recursos/rec-css.html ">CSS 3</a></li>-->
-							<li><a href="${rootPathAux}pages/proximamente.html ">CSS 3</a></li>
-
-							<!--<li><a href="${rootPathAux}pages/recursos/rec-bootstrap.html ">BootStrap</a></li>-->
-							<li><a href="${rootPathAux}pages/proximamente.html">BootStrap</a></li>
-
-							<li><a href="${rootPathAux}pages/recursos/rec-javascript.html ">JavaScript</a></li>
-
-							<!--<li><a href="${rootPathAux}pages/recursos/rec-threejs.html ">Three.js</a></li>-->
-							<li><a href="${rootPathAux}pages/proximamente.html">Three.js</a></li>
 						</ul>
 					</li>
 				</ul>

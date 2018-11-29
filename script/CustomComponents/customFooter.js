@@ -30,7 +30,7 @@ const customFooterTem = `
 				</div> 
 			</div>
 
-			<div class="col-md-3 col-sm-6">
+			<!--<div class="col-md-3 col-sm-6">
 				<div class="contact-info bottom">
 					<h2>Contacto</h2>
 					<address>
@@ -47,7 +47,7 @@ const customFooterTem = `
 					España <br> 
 					</address>
 				</div>
-			</div>
+			</div>-->
 
 
 			<div class="col-sm-12">
