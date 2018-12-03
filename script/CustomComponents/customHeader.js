@@ -70,7 +70,7 @@ function createNavbar(rootIndex) {
 							<li><a href="${rootPathAux}pages/proximamente.html">El circuito y el tiempo</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html">Animando nuestros modelos</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html">Menús de configuración</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">Evaluación demo SpeedRun</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio006.html">Evaluación demo SpeedRun</a></li>
 							<hr>
 							<li><a href="${rootPathAux}pages/proximamente.html">Primera máquina de estados</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html">Minijuegos por zonas</a></li>
