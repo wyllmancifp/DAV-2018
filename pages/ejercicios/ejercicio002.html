@@ -88,26 +88,69 @@
 	                            <div class="single-blog blog-details two-column">
 	                               
 	                                <div id="cifp_ejercicio" class="post-content overflow">
-	                                    <h2 class="post-title bold"><a href="#">-</a></h2>
+	                                    <h2 class="post-title bold"><a href="#">SpeedRun v:0.0.2</a></h2>
 	                                    <!--<h3 class="post-author"><a href="#">Posted by micron News</a></h3>-->
 	                                    <br/>
-	                                    <p> Enunciado
+	                                    <p><b> Enuncidado </b></p>
+	                                    <p> Crear una nueva escena y configurarla como escena cero en las configuraciones de compilación. Dicha escena se destinará como menú principal del proyecto y escena de bienvenida al ejecutarlo. Se han de tener en cuenta los siguientes aspectos: <br>
+	                                    - Configurar una imagen de fondo personalizada y una barra de texto localizada en alguna de las esquinas inferiores de la pantalla. Contendrá la versión actual del estado del proyecto ("SpeedRun v:0.0.2") <br>
+	                                    - Creación de un panel central destinado a contener y mostrar los distintos subpaneles descritos a continuación. Configurar su ajuste a múltiples pantallas <br>
+	                                    - Creación un subpanel de "Menú Principal", uno de "Configuración" y uno de "Ayuda" <br>
+	                                    - Cada subpanel ha de tener una cabecera con una imagen o texto identificativo del mismo <br>
+	                                    - Una sección principal de botones o submenús <br>
+	                                    - Un botón para "Salir" o "Atrás" según el mapa de navegación de los paneles <br> 
+	                                    - Configurar los scripts de UtilidadesGUI proporcionado con cada uno de sus correspondientes eventos de los botones creados en el panel de "Menú Principal" <br> 
+	                                    <br>
+	                                    <br>
+	                                    Añadir interfaz de usuario a la escena creada en el ejercicio anterior: <br>
+	                                    - Minimapa del circuito, renderizado de forma dinámica <br>
+	                                    - Minimapa con zoom centrado en el jugador, renderizado de forma dinámica <br>
+	                                    <br>
+	                                    </p>
+	                                    <p><b> Estructuras </b></p>
+	                                    <p> Sugerencias de organización y estructuras de objetos de juego de la nueva escena:<br>
+	                                    - Objetos de juego vacíos: <br>
+	                                    |---+ Player <br>
+	                                    |---+ GUI <br> 
+	                                    |---|---+ MainCanvas <br>
+	                                    |---|---|---+ CentralPanel <br> 
+	                                    |---|---|---|---+ MainMenu <br>
+	                                    |---|---|---|---+ Configuration <br>
+	                                    |---|---|---|---+ Help <br>
+	                                    |---|---|---+ StatusBar <br>
+	                                    |---|---|---+ BackGround <br>
+	                                    <br> 
+	                                    <br>
+	                                    Sugerencias de actualización de los objetos de juego de la nueva escena 1:<br>
+	                                    - Objetos de juego vacíos: <br>
+	                                    |---+ ... <br>
+	                                    |---+ Player <br>
+	                                    |---|---+ ... <br>
+	                                    |---|---+ GUICameras <br>
+	                                    |---+ Ilumination <br>
+	                                    |---+ GUI <br>
+	                                    |---|---+ ... <br>
+	                                    |---|---+ InGameCanvas <br>
+	                                    |---|---|---+ MinimapGeneral <br>
+	                                    |---|---|---|---+ Mask <br>
+	                                    |---|---|---|---|---+ RenderImage <br>
+	                                    |---|---|---+ MinimapZoom <br>
+	                                    |---|---|---|---+ Mask <br>
+	                                    |---|---|---|---|---+ RenderImage <br>
+	                                    <br>
+	                                    </p>
 
+	                                    <p><b> Recursos </b></p>
+
+	                                    <p> Archivo comprimido con los recursos de ayuda para la ejecución de este ejercicio: <br>
+	                                    - Ejerecicio2.zip <br>
+	                                    Contenido: <br>
+	                                    - Script c# de utilidades GUI <br>
+	                                    - Png de imagen circular y marco circular para decorar los minimapas <br>
 	                                    </p>
 
 	                                    <br/>
 
-	                                    <h2 class="post-title bold"><a href="#">Formato de la entrega</a></h2>
-
-	                                    <br/>
-
-	                                    <blockquote> 
-	                                          <p> [Nombre del ejercicio] <br> <br>
-
-	                                          
-
-	                                          </p>
-	                                    </blockquote>
 	                                </div>
 	                            </div>
 	                        </div>

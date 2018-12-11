@@ -88,25 +88,63 @@
 	                            <div class="single-blog blog-details two-column">
 	                               
 	                                <div id="cifp_ejercicio" class="post-content overflow">
-	                                    <h2 class="post-title bold"><a href="#">-</a></h2>
+	                                    <h2 class="post-title bold"><a href="#">SpeedRun v:0.1.0</a></h2>
 	                                    <!--<h3 class="post-author"><a href="#">Posted by micron News</a></h3>-->
 	                                    <br/>
-	                                    <p> Enunciado
+	                                    <p><b> Enuncidado </b></p>
+
+	                                    <p> Crear un objeto de juego vacío para el control del tiempo y se le añadirá el script crono.cs proporcionado.<br>
+	                                    <br>
+	                                    En el canvas destinado a la interfaz de usuario "in-game" se añadirá un panel de texto con espacio suficiente para mostrar el tiempo del crono actual y los tiempos capturados por cada paso por "checkpoints". <br>
+	                                    <br>
+	                                    Crear los modelos del arco a usar como checkpoint de la carrera. Se crearan como hijos de un "gameObject" vacío. Junto a los modelos crearemos tres objetos de juego más con un componente de unity "BoxCollider" cada uno. Dichos bloques de colisión han de cubrir la zona interna del modelo del arco. Se añadiran los scripts de control para los colisionadores y los tiempos proprocionados. <br> 
+	                                    <br>
+	                                    Configurar los atributos vacíos de los scripts usados y crear un prefab del objeto de juego del checkpoint creado anteriormente. Usando dicho prefab, posicionar, al menos, dos checkpoints más configurando el primero como "start", otro/s como "check" y el último como "end". <br>
+	                                    <br>
+	                                    Adaptar el terreno de juego para que el usuario no pueda salirse del circuto o la zona de juego. Haciendo uso de colisionadores, alturas de terreno, ... <br>
+
+	                                	</p>
+
+	                                    <p><b> Estructuras </b></p>
+
+	                                    <p> Sugerencias de actualización de carpetas de juego:<br>
+	                                    - Carpetas: <br>
+	                                    |---+ Assets/ <br>
+	                                    |---|---+ ... <br>
+	                                    |---|---+ SpeedRun/ <br>
+	                                    |---|---|---+ Scenes/ <br>
+	                                    |---|---|---+ Scripts/ <br>
+	                                    |---|---|---|---+ Checkpoints/ <br>
+	                                    |---|---|---+ ... <br>
+	                                    <br>
+	                                    <br>
+	                                    Sugerencias de actualización de los objetos de juego de la escena 1:<br>
+	                                    - Objetos de juego vacíos: <br>
+	                                    |---+ Managers <br>
+	                                    |---|---+ Crono <br>
+	                                    |---+ Enviroment <br>
+	                                    |---|---+ ... <br>
+	                                    |---|---+ Structures <br>
+	                                    |---|---|---+ Circuit
+	                                    |---|---|---|---+ StartCheckpoint
+	                                    |---|---|---|---+ Middle1Checkpoint
+	                                    |---|---|---|---+ EndCheckpoint
+	                                    |---+ ... <br>
+	                                    |---+ GUI <br>
+	                                    |---|---+ ... <br>
+	                                    |---|---+ InGameCanvas <br> 
+	                                    |---|---|---+ CronoPanel <br> </p>
+
+	                                    <p><b> Recursos </b></p>
+
+	                                    <p> Archivo comprimido con los recursos de ayuda para la ejecución de este ejercicio: <br>
+	                                    - Ejerecicio3.zip <br>
+	                                    Contenido: <br>
+	                                    - crono.cs <br>
+	                                    - enterCheclpoint.cs <br>
+	                                    - blockCheckpoint.cs <br>
+	                                    - exitCheckpoint.cs <br>
 	                                    </p>
-
-	                                    <br/>
-
-	                                    <h2 class="post-title bold"><a href="#">Formato de la entrega</a></h2>
-
-	                                    <br/>
-
-	                                    <blockquote> 
-	                                          <p> [Nombre del ejercicio] <br> <br>
-
-	                                        
-
-	                                          </p>
-	                                    </blockquote>
 	                                </div>
 	                            </div>
 	                        </div>

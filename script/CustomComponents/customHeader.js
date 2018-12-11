@@ -65,11 +65,11 @@ function createNavbar(rootIndex) {
 
 					<li class="dropdown"><a href="${rootPathAux}pages/practicas.html">Prácticas <i class="fa fa-angle-down"></i></a>
 						<ul role="menu" class="sub-menu">
-							<li><a href="${rootPathAux}pages/proximamente.html">El primer terreno</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">Añadiendo interfaces de usuario</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">El circuito y el tiempo</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">Animando nuestros modelos</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">Menús de configuración</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio001.html">El primer terreno</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio002.html">Añadiendo interfaces de usuario</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio003.html">El circuito y el tiempo</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio004.html">Animando nuestros modelos</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio005.html">Menús de configuración</a></li>
 							<li><a href="${rootPathAux}pages/ejercicios/ejercicio006.html">Evaluación demo SpeedRun</a></li>
 							<hr>
 							<li><a href="${rootPathAux}pages/proximamente.html">Primera máquina de estados</a></li>
@@ -83,7 +83,13 @@ function createNavbar(rootIndex) {
 					<li class="dropdown"><a href="${rootPathAux}pages/recursos.html">Unity(C#)<i class="fa fa-angle-down"></i></a>
 						<ul role="menu" class="sub-menu">
 
-							<li><a href="${rootPathAux}pages/proximamente.html ">Interfaz de usuario</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Introducción a Unity</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Espacio Tridimensional</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Espacio Bidimensional</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Espacíficos</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Avanzados</a></li>
+
+							<!--<li><a href="${rootPathAux}pages/proximamente.html ">Interfaz de usuario</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">La primera escena</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">Terreno</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">Controlador tercera persona</a></li>
@@ -93,10 +99,10 @@ function createNavbar(rootIndex) {
 							<li><a href="${rootPathAux}pages/proximamente.html ">Fuentes de sonido y mezcladores</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">Configuración de controles</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">Emisores de partículas</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html ">Compilación</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Compilación</a></li>-->
 							<hr>
 							<li><a href="${rootPathAux}pages/proximamente.html">Introducción a C#</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">Programación orientada a objetos</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html">Prog. orientada a objetos</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html">Flujo ejecución de Unity</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html">La API de Unity</a></li>
 
