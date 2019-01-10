@@ -101,7 +101,7 @@ function createNavbar(rootIndex) {
 							<li><a href="${rootPathAux}pages/proximamente.html ">Emisores de partículas</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">Compilación</a></li>-->
 							<hr>
-							<li><a href="${rootPathAux}pages/proximamente.html">Introducción a C#</a></li>
+							<li><a href="${rootPathAux}pages/recursos/csharp001-introduction.html">Introducción a C#</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html">Prog. orientada a objetos</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html">Flujo ejecución de Unity</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html">La API de Unity</a></li>
