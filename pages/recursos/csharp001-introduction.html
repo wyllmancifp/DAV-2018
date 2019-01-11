@@ -81,6 +81,10 @@
 							<div class="col-md-10">
 								<blockquote class="text-center"> Un programa es un trozo de texto (código) escrito por un programador, formando un conjunto de instrucciones que fuerza directamente al ordenador a cumplir su cometido. </blockquote>
 
+								<p>C# es un lenguaje de programación orientado a objetos desarrollado y estandarizado por Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA (ECMA-334) e ISO (ISO/IEC 23270). C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común. </p>
+
+								<p>Aunque C# forma parte de la plataforma .NET, ésta es una API, mientras que C# es un lenguaje de programación independiente diseñado para generar programas sobre dicha plataforma. Ya existe un compilador implementado que provee el marco Mono - DotGNU, el cual genera programas para distintas plataformas como Windows Microsoft, Unix, Android, iOS, Windows Phone, Mac OS y GNU/Linux. </p>
+
 							</div>
 							
 							<div class="col-md-1"></div>
@@ -95,10 +99,42 @@
 							<div class="col-md-12">
 								<h2 class="page-header"><b>Sintaxis y conceptos básicos</b></h2>
 
+								<p>Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de Java, aunque incluye mejoras derivadas de otros lenguajes. </p>
+
+								<br>
+
+								<p>Los nombres de variables (lo que se conoce como "identificadores") pueden estar formados por letras, números o el símbolo de subrayado (_) y deben comenzar por letra o subrayado. No deben tener espacios intermedios. También hay que recordar que las vocales acentuadas y la eñe son problemáticas, porque no son letras "estándar" en todos los idiomas, así que no se pueden utilizar como parte de un identificador en la mayoría de lenguajes de programación.</p>
+
+								<p>Tampoco podremos usar como identificadores las palabras reservadas de C#. Por ejemplo, la palabra "int" se refiere a que cierta variable guardará un número entero, así que esa palabra "int" no la podremos usar tampoco como nombre de variable (pero no vamos a incluir ahora una lista de palabras reservadas de C#, ya nos iremos encontrando con ellas).</p>
+
+								<p>Hay que recordar que en C# las mayúsculas y minúsculas se consideran diferentes</p>
+
+								<p>En C# se usa una función "Main()" como punto de entrada de ejecución.</p>
+
+								<p>Las llaves { y } se usan para delimitar un bloque de programa. En nuestro caso, se trata del bloque principal del programa (Main).</p>
+
+								<p>Cada orden o sentencia de C# debe terminar con un punto y coma (;)</p>
+
+								<p>Para realizar comentarios en el código se utilizan los simbolos // para una sola línea y /* comentario */ para los comentarios multilínea</p>
 
 								<pre>
 									<xmp style="text-align: left; font-size:12px">
-... Codigo de ejemplo ...
+// Esto es un comentario de una sola línea
+
+/*
+
+Esto es un comentario
+multilínea ...
+
+*/
+
+//Ejemplos base de una estructura de programa en c#
+
+public class Saludo {
+    public static void Main() {
+        System.Console.WriteLine("Hola");
+    }
+}
 									</xmp>
 								</pre>
 								
@@ -116,7 +152,39 @@
 								<blockquote>
 								Una variable se utiliza para almacenar y hacer referencia a otro valor en el espacio de memoria del programa.
 								</blockquote>
-<p>Operadores</p>
+
+								<p>Para usar una cierta variable primero hay que declararla: indicar su nombre y el tipo de datos que querremos guardar. Dicha declaración se realiza escribiendo primero la palabra reservada del tipo de dato seguida de su identificador. Se les asigna un valor concreto, escribiendo su identificador el símbolo = y el valor a guardar.</p>
+
+								<p>Los tipos de datos numéricos más usados son: <br>
+								- Entero con signo <br>
+									sbyte: 8 bits, de -128 a 127 <br>
+									short: 16 bits, de -32,768 a 32,767 <br>
+									int: 32 bits, de -2,147,483,648 a 2,147,483,647 <br>
+									long: 64 bits, de -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807<br>
+								<br>
+								- Entero sin signo<br>
+									byte: 8 bits, de 0 a 255<br>
+									ushort: 16 bits, de 0 a 65,535<br>
+									uint: 32 bits, de 0 a 4,294,967,295<br>
+									ulong: 64 bits, de 0 a 18,446,744,073,709,551,615<br>
+								<br>
+								- Punto flotante<br>
+									float: 32 bits, de 1.5 × 10−45 a 3.4 × 1038, precisión de 7 dígitos<br>
+									double: 64 bits, de 5.0 × 10−324 a 1.7 × 10308, precisión de 15 dígitos<br>
+								<br>
+								- Decimal<br>
+									decimal: 128 bits, al menos de –7.9 × 10−28 a 7.9 × 1028, con una precisión mínima de 28 dígitos<br>
+
+								</p>
+
+								<p>- Otros tipos de datos base son:<br>
+									bool(Booleano): 0, 1 o true, false<br>
+									enum(Enumeraciones)<br>
+									struct(Estructuras)<br>
+									char(caracteres Unicode)<br>
+									string(cadenas de caracteres Unicode)<br>
+								</p>
+
 								<pre>
 									<xmp style="text-align: left; font-size:12px">
 ... Códigos de ejemplo ...
@@ -132,7 +200,48 @@
 						<div class="row" style="font-size:17px">
 							<div class="col-md-12">
 								<h2 class="page-header"><b>Operadores y estructuras de control</b></h2>
+<p>Operadores:<br>
++	Suma<br>
+-	Resta, negación<br>
+*	Multiplicación<br>
+/	División<br>
+%	Resto de la división ("módulo")<br>
+<br>
+El orden de prioridad de los mismos será:<br>
+-   En primer lugar se realizarán las operaciones indicadas entre paréntesis.<br>
+-   Luego la negación.<br>
+-   Después las multiplicaciones, divisiones y el resto de la división.<br>
+-   Finalmente, las sumas y las restas.<br>
+-   En caso de tener igual prioridad, se analizan de izquierda a derecha.<br>
+</p>
 
+<p>Otros operadores:<br>
+Unario<br>
+    +x: identidad.<br>
+    -x: negación.<br>
+    !x: negación lógica.<br>
+    ~x: negación bit a bit.<br>
+    ++x: preincremento.<br>
+    --x: predecremento.<br>
+<br>
+Shift<br>
+    x << y: desplazamiento a la izquierda.<br>
+    x >> y: desplazamiento a la derecha.<br>
+<br>
+Comprobación de tipos y relacional<br>
+    x < y: menor que.<br>
+    x > y: mayor que.<br>
+    x <= y: menor o igual que.<br>
+    x >= y: mayor o igual que.<br>
+<br>
+Igualdad<br>
+    x == y: igual que.<br>
+    x != y: no igual que.<br>
+<br>
+AND condicional<br>
+    x && y: evalúa y solo si x no es false.<br>
+OR condicional<br>
+    x || y: evalúa y solo si x no es true.</p>
 								<pre>
 									<xmp style="text-align: left; font-size:12px">
 ... Códigos de ejemplo operadores ...
