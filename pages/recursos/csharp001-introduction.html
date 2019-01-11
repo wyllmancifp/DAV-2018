@@ -100,21 +100,19 @@
 								<h2 class="page-header"><b>Sintaxis y conceptos básicos</b></h2>
 
 								<p>Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de Java, aunque incluye mejoras derivadas de otros lenguajes. </p>
-
 								<br>
-
 								<p>Los nombres de variables (lo que se conoce como "identificadores") pueden estar formados por letras, números o el símbolo de subrayado (_) y deben comenzar por letra o subrayado. No deben tener espacios intermedios. También hay que recordar que las vocales acentuadas y la eñe son problemáticas, porque no son letras "estándar" en todos los idiomas, así que no se pueden utilizar como parte de un identificador en la mayoría de lenguajes de programación.</p>
-
+								<br>
 								<p>Tampoco podremos usar como identificadores las palabras reservadas de C#. Por ejemplo, la palabra "int" se refiere a que cierta variable guardará un número entero, así que esa palabra "int" no la podremos usar tampoco como nombre de variable (pero no vamos a incluir ahora una lista de palabras reservadas de C#, ya nos iremos encontrando con ellas).</p>
-
+								<br>
 								<p>Hay que recordar que en C# las mayúsculas y minúsculas se consideran diferentes</p>
-
+								<br>
 								<p>En C# se usa una función "Main()" como punto de entrada de ejecución.</p>
-
+								<br>
 								<p>Las llaves { y } se usan para delimitar un bloque de programa. En nuestro caso, se trata del bloque principal del programa (Main).</p>
-
+								<br>
 								<p>Cada orden o sentencia de C# debe terminar con un punto y coma (;)</p>
-
+								<br>
 								<p>Para realizar comentarios en el código se utilizan los simbolos // para una sola línea y /* comentario */ para los comentarios multilínea</p>
 
 								<pre>
@@ -187,7 +185,28 @@ public class Saludo {
 
 								<pre>
 									<xmp style="text-align: left; font-size:12px">
-... Códigos de ejemplo ...
+int numEntero = 10;
+bool booleano = true;
+float numDec = 3.5f;
+char caracter = 'a';
+string texto = "hola";
+
+enum enumeracion {blanco, rojo, verde, azul, negro};
+
+enumeracion variableColor = enumeracion.blanco;
+
+public struct Libro {
+    public float precio;
+    public string titulo;
+    public string autor;
+}
+
+Libro mundodisco1;
+mundodisco.autor = "Terry Pratchett";
+mundodisco.titulo = "El color de la magia";
+mundodisco.precio = 19.95f;
+
+
 									</xmp>
 								</pre>
 							</div>

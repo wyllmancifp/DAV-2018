@@ -86,7 +86,7 @@ function createNavbar(rootIndex) {
 							<li><a href="${rootPathAux}pages/proximamente.html ">Introducción a Unity</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">Espacio Tridimensional</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">Espacio Bidimensional</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html ">Espacíficos</a></li>
+							<li><a href="${rootPathAux}pages/proximamente.html ">Específicos</a></li>
 							<li><a href="${rootPathAux}pages/proximamente.html ">Avanzados</a></li>
 
 							<!--<li><a href="${rootPathAux}pages/proximamente.html ">Interfaz de usuario</a></li>
